@@ -1,6 +1,6 @@
 # DS 5010 -- Spring 2022
 
-## Assignments & reading
+Class notes
 
-## Class notes
+* [01-Intro](01-Intro.md) -- 19-20 Jan
 
