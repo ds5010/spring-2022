@@ -7,8 +7,6 @@
 * Git and Github
 * File I/O and plotting with basic data structures
 
-https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv
-
 ## Assignment
 
 * I created an assignment in github classroom that uses the github-starter-course
