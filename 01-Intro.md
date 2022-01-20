@@ -5,31 +5,38 @@
 
 * Introductions & course overview
 * Git and Github
-* File I/O with basic data structures
+* File I/O and plotting with basic data structures
+
+https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv
+
+## Assignment
+
+* I created an assignment in github classroom that uses the github-starter-course
+* In Canvas, you'll find the following guidance...
+```
+Here's the link to the first assignment: https://classroom.github.com/a/XpPg3lCC
+
+* Create your own README.md with markdown.
+* Practice syncing your repo with content on your computer.
+* Add some feedback to the pull request.
+* When you're finished, submit a link to your repo.
+```
 
 ## Reading (for next week)
 
 * [McKinney, Chapter 1: Preliminaries](https://learning.oreilly.com/library/view/python-for-data/9781098104023/ch01.html)
 * [McKinney, Chapter 2: Python Language Basics](https://learning.oreilly.com/library/view/python-for-data/9781098104023/ch01.html)
 * [How to ask a good question](https://stackoverflow.com/help/how-to-ask) -- stackoverflow.com
-* [Pull requests](https://docs.github.com/en/pull-requests) -- github.com
-  * Commit changes to a project and use pull requests to collaborate/communicate with project members
-* [Introduction to licenses](https://observablehq.com/@observablehq/licenses) -- observablehq.com
-  * reusing published work, attribution, copyright
-  * [Northeastern's academic integrity policy](https://osccr.sites.northeastern.edu/academic-integrity-policy/)
-  * copy and paste could have legal implications that extend beyond academic integrity
-
-## Assignment
-
-* Check Canvas
-
-## Quiz
-
-* No quiz in week 1
-
-## Discussion
-
-Introductions
+* Github
+  * Read the tutorial (in the assignment)
+  * [Pull requests](https://docs.github.com/en/pull-requests) -- github.com
+    * Commit changes to a project when you want to update things that you've worked on elsewhere.
+    * If you're collaborating with others, use pull requests to communicate with project members before merging changes.
+    * Commit changes to a project and use pull requests to collaborate/communicate with project members
+  * [Introduction to licenses](https://observablehq.com/@observablehq/licenses) -- observablehq.com
+    * Feusing published work, attribution, copyright
+    * [Northeastern's academic integrity policy](https://osccr.sites.northeastern.edu/academic-integrity-policy/)
+    * Copy and paste could have legal implications that extend beyond academic integrity (unlikely for us right now).
 
 ## Lecture
 
@@ -41,12 +48,7 @@ Introductions
 * editor -- recommend vscode, atom or others (e.g., vim)
 * REPL -- make sure you can run REPL (read-eval-print-loop) from the command line
 
-## Git & github
-
-* The first assignment is a github-classroom tutorial
-* Practice with github, markdown, command-line...
-
-## In-class exercise -- I
+## In-class exercise -- github intro
 
 * Verify that students can access their github accounts
 * Demonstrate how to clone their gh-classroom repo, modify a file and submit an assignment (on Canvas)
@@ -55,17 +57,22 @@ Introductions
 * github tutorials
   * hands on to verify that each student has basic capabilities
 
-### Colab
+## In-class exercise -- colab intro
 
 * Colab -- https://colab.research.google.com/
   * Colab is Jupyter as a service, with GUI improvements & GPU access (and an underlying business model)
   * Authenticate with your husky.neu.edu
   * Colab and jupyter are for prototyping and in-class exercises, but NOT for code submission.
   * You can share Jupyter notebooks, but editing is not synchronous.  You need to "save" explicitly.
+* Verify that students can access their github accounts
+  * Show how to "share" a notebook with someone else
+  * Practice with markdown and tex
+* Accessing the iris dataset
+  * Look here: https://github.com/mwaskom/seaborn-data/blob/master/iris.csv
+  * Use the "raw" link
+  * `!curl -O "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
 
-## Homework assignment -- I
+## Discussion -- iris dataset
 
-* An assignment has been created in github classroom -- check canvas for the URL
-  * these are individual assignments -- you should have your own private github repo for the assignment
-  * student must set it up so that they will run the code and post the result (maybe hardware & os with versions?)
-
+* [iris exercise](./iris_exercise.md)
+* [iris dataset](./iris_dataset.md)
