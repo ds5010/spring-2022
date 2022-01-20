@@ -1,3 +1,6 @@
-# Spring 2022
+# DS 5010 -- Spring 2022
 
-Class notes
+## Assignments & reading
+
+## Class notes
+
