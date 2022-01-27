@@ -86,7 +86,7 @@ Write a function that reads a generic CSV file from your local filesystem.
 * When you're done prototyping, make sure your code is modular and well documented.
 * [solution](src/02-Data.md#exercise-2-detailed-rubric)
 
-## Matplotlib
+## Matplotlib overview
 
 * [Python Data Viz](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries) in 2018
   * Part II: [Emerging trends](https://www.anaconda.com/blog/python-data-visualization-2018-moving-toward-convergence)
@@ -97,8 +97,21 @@ Write a function that reads a generic CSV file from your local filesystem.
     * "Maarten Breddels, representing ipyvolume, bqplot, and ipywidgets, argued that ipywidgets (aka Jupyter widgets) is already emerging as a de facto standard, supported by a wide range of libraries (ipyvolume, ipyleaflet, pythreejs, bqplot, and now Plotly) that can now be mixed and matched as needed to provide interactive apps and plots in a Jupyter notebook."
     * Conclusions and Outlook: "Overall, it was clear that each of the main libraries represents a vibrant community of users and developers using different techniques to achieve different goals."
 
+## Matplotlib scatter
+
+* [pyplot.scatter API reference](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
+* [scatter plot demo](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html)
+
 ## Exercise #3: Visualize penguins
 
+Use the code from Exercises #1 and #2 to plot "bill_length_mm"
+vs "flipper_length_mm" for 
+[penguis.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv), 
+using color to distinguish "species". 
+If everything is nice and modular, it should be easy.
+
+* [penguins dataset](https://allisonhorst.github.io/palmerpenguins/) -- this is a NICE data repository!
+  * It's a [github pages](https://pages.github.com/) site -- every repository has one (optionally)
 * [solution](src/02-Data.md#exercise-3-solution)
 
 ## Exercise #4: Create a well-documented repo
@@ -108,3 +121,29 @@ Write a function that reads a generic CSV file from your local filesystem.
 
 ## Exercise #5: Create a well-documented repo
 
+By the way, you can include an image in markdown.
+
+* You can automatically download a figure using the google.colab.files module
+  ```
+  import seaborn as sns
+  import matplotlib.pyplot as plt
+  from google.colab import files
+
+  data = sns.load_dataset("iris")
+  sns.pairplot(data, hue="species");
+  plt.savefig("iris.png")
+  files.download("iris.png")
+  ```
+  * Or you can do by hand, because "iris.png" has been saved on the local filesystem
+  * Note: we're using the fact that seaborn is built on matplotlib
+    * matplotlib.pyplot has the "savefig()" function -- which saves the "current figure" as a PNG
+  * See: [this article](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
+    * It describes data viz with Python and answers the question: "Why so many data-viz libraries in Python?"
+* If you google "add image to github markdown", then these are the top two links...
+  * [stackoverflow post](https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github)
+    * highly ranked question and answer, with highly ranked comments
+    * response #5 shows that you can use HTML directly, which allows you to resize image
+  * [github docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+    * authoritative documentation, but you'd need to know about HTML and markdown to get the resize option
+* With sizing: <img src="iris.png" width="200px">
+* Without sizing: ![alt text](iris.png)
