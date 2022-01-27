@@ -119,7 +119,9 @@ If everything is nice and modular, it should be easy.
 * Use Pandas
 * [solution](src/02-Data.md#exercise-4-solution)
 
-## Exercise #5: Create a well-documented repo
+## Exercise #5: Create a well-documented repo with the result
+
+* [git.md](./git.md) -- summary of command-line git
 
 By the way, you can include an image in markdown.
 
