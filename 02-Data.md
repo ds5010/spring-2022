@@ -21,8 +21,8 @@
     * Look here: https://github.com/mwaskom/seaborn-data/blob/master/iris.csv
     * Use the "raw" link
     * `!curl -O "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
-* **NEW** since last week: [colab.md](./colab.md)
-  * Describes collaborative development with Colab
+* **NEW** [colab.md](./colab.md)
+  * Collaborative development with Colab
 
 ## In-class exercise: visualize iris
 
@@ -106,8 +106,8 @@ Write a function that reads a generic CSV file from your local filesystem.
 
 Use the code from Exercises #1 and #2 to plot "bill_length_mm"
 vs "flipper_length_mm" for 
-[penguis.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv), 
-using color to distinguish "species". 
+[penguis.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv).
+Use color to distinguish "species". 
 If everything is nice and modular, it should be easy.
 
 * [penguins dataset](https://allisonhorst.github.io/palmerpenguins/) -- this is a NICE data repository!
@@ -134,15 +134,9 @@ By the way, you can include an image in markdown.
   plt.savefig("iris.png")
   files.download("iris.png")
   ```
-<<<<<<< HEAD
   * Or you can do by hand, because "iris.png" has been saved on the local filesystem
   * Note: we're using the fact that seaborn is built on matplotlib
     * matplotlib.pyplot has the "savefig()" function -- which saves the "current figure" as a PNG
-=======
-  * Or you can do by hand, because "iris.png" has been saved on the colab filesystem.
-  * Note: we're using the fact that seaborn is built on matplotlib
-    * It's matplotlib.pyplot that has the "savefig()" function because of it
->>>>>>> 07fad351fe5cbc884753422143e43edb5c2fbf30
   * See: [this article](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
     * It describes data viz with Python and answers the question: "Why so many data-viz libraries in Python?"
 * If you google "add image to github markdown", then these are the top two links...
