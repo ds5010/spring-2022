@@ -21,8 +21,8 @@
     * Look here: https://github.com/mwaskom/seaborn-data/blob/master/iris.csv
     * Use the "raw" link
     * `!curl -O "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
-* **NEW** [colab.md](./colab.md)
-  * Collaborative development with Colab
+* **NEW** since last week: [colab.md](./colab.md)
+  * Describes collaborative development with Colab
 
 ## In-class exercise: visualize iris
 
@@ -134,9 +134,15 @@ By the way, you can include an image in markdown.
   plt.savefig("iris.png")
   files.download("iris.png")
   ```
+<<<<<<< HEAD
   * Or you can do by hand, because "iris.png" has been saved on the local filesystem
   * Note: we're using the fact that seaborn is built on matplotlib
     * matplotlib.pyplot has the "savefig()" function -- which saves the "current figure" as a PNG
+=======
+  * Or you can do by hand, because "iris.png" has been saved on the colab filesystem.
+  * Note: we're using the fact that seaborn is built on matplotlib
+    * It's matplotlib.pyplot that has the "savefig()" function because of it
+>>>>>>> 07fad351fe5cbc884753422143e43edb5c2fbf30
   * See: [this article](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
     * It describes data viz with Python and answers the question: "Why so many data-viz libraries in Python?"
 * If you google "add image to github markdown", then these are the top two links...
