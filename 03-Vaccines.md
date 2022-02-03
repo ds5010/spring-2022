@@ -29,6 +29,7 @@ Discussion
 
 * Discuss goals -- county-level information
   * Today's (2 Feb 2022) headline on nytimes.com: "U.S. has far higher COVID dath rate than other wealthy countries"
+  * Relevant commentary from FiveThirtyEight: ["The COVID-19 Metrics Policymakers Should Be Watching After Omicron"](https://fivethirtyeight.com/features/the-covid-19-metrics-policymakers-should-be-watching-after-omicron/)
   * Q: Are the vaccines effective? 
   * Q: What are the socio-political ramifications? 
 * [COVID-19 Incidents and Death Rates](https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e2.htm) -- cdc.gov
