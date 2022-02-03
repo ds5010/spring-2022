@@ -45,4 +45,4 @@ Discussion
     * 70 times higher chance of death for unvaccinated compared to boosted -- Oct-Nov 2021
   * Q: Next steps?
 * Get started with CDC -- review the website
-  * Download and process CDC data -- [covid](../../../topics/covid)
+  * Download and process CDC data -- [covid](../../topics/covid)
