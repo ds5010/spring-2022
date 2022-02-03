@@ -23,7 +23,7 @@ Learning goals
 
 * Data aquisition
 * Documentating provenance
-* Well-organized project repository
+* Well organized project repository
 
 Discussion
 
