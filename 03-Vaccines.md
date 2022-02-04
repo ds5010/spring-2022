@@ -35,8 +35,9 @@ Discussion
 
 * Discuss goals -- county-level information
   * Today's (2 Feb 2022) headline on the NY Times: "U.S. has far higher COVID death rate than other wealthy countries"
-  * Q: Why? Are the vaccines effective? 
-  * Q: What are the socio-political issues?
+  * Relevant commentary from FiveThirtyEight: ["The COVID-19 Metrics Policymakers Should Be Watching After Omicron"](https://fivethirtyeight.com/features/the-covid-19-metrics-policymakers-should-be-watching-after-omicron/)
+  * Q: Why are things so bad in the U.S.? Are the vaccines effective? 
+  * Q: What are the socio-economic issues?
 * [COVID-19 Incidents and Death Rates](https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e2.htm) -- cdc.gov
   * [Covid Data Tracker](https://covid.cdc.gov/covid-data-tracker/#vaccinations_vacc-total-admin-rate-total) -- cdc.gov
     * Table 2 (about 2/3 of the way down the page) shows average cases & deaths
