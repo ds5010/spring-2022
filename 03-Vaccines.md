@@ -46,3 +46,14 @@ Discussion
   * Q: Next steps?
 * Get started with CDC -- review the website
   * Download and process CDC data -- [covid](../../topics/covid)
+
+## In-class exercises
+
+* What story would you like to tell?  What question(s) would you like to answer?
+* Decide on the data to use
+  * What fields?
+  * What dates?
+* [COVID-19 vaccinations by county](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh)
+* Issues/Questions:
+  * What's FIPS?
+
