@@ -43,7 +43,7 @@ Picking up where we left off last week...
 and [string methods](https://docs.python.org/3/library/stdtypes.html?highlight=rstrip#string-methods),
 and the matplotlib.
 * Prototype in Colab, then migrate the result to a well-documented repo on github.
-  * [solution](src/02-Data.md)
+* **Solution:** [02-Data.ipynb](notebooks/02-Data.ipynb)
 * We'll split this exercise up into several steps...
 
 ## Exercise #1
@@ -53,7 +53,6 @@ Write a function that reads a generic CSV file from your local filesystem.
 * The function should return a list of dictionary objects.
 * Assume the first row of the CSV file represents the dictionary keys.
 * Each row after the first represents a set of dictionary values, with one dictionary per row.
-* [solution](src/02-Data.md#exercise-1-detailed-rubric)
 
 ## File I/O
 
@@ -84,7 +83,6 @@ Write a function that reads a generic CSV file from your local filesystem.
 * Use the return value of the function you wrote in Exercise #1
 * Add column labels and a color legend
 * When you're done prototyping, make sure your code is modular and well documented.
-* [solution](src/02-Data.md#exercise-2-detailed-rubric)
 
 ## Matplotlib overview
 
@@ -106,18 +104,17 @@ Write a function that reads a generic CSV file from your local filesystem.
 
 Use the code from Exercises #1 and #2 to plot "bill_length_mm"
 vs "flipper_length_mm" for 
-[penguis.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv).
+[penguins.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv).
 Use color to distinguish "species". 
 If everything is nice and modular, it should be easy.
 
 * [penguins dataset](https://allisonhorst.github.io/palmerpenguins/) -- this is a NICE data repository!
   * It's a [github pages](https://pages.github.com/) site -- every repository has one (optionally)
-* [solution](src/02-Data.md#exercise-3-solution)
 
-## Exercise #4: Create a well-documented repo
+## Exercise #4: Use pandas
 
-* Use Pandas
-* [solution](src/02-Data.md#exercise-4-solution)
+* Use pandas to read and plot the data in exercise #3.
+* [pandas.read_csv() API reference](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
 
 ## Exercise #5: Create a well-documented repo with the result
 
