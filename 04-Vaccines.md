@@ -90,10 +90,10 @@ Case study: [Pandas on github](./pandas_on_github.md)
 * Project repo
   * https://github.com/ds5010/vaccines
   * everyone should have access
-  * TODO: Decide on a collaborative development model
   * Discuss pull requests on github
-  * Discuss issues/feature requests on github
+  * Discuss issues & feature requests on github
   * Use Piazza to ask for help on something that's not in the repo.
+  * TODO: Decide on a collaborative development model
 * [Pull requests](https://docs.github.com/en/pull-requests)
   * [Committing changes to your project](https://docs.github.com/en/pull-requests/committing-changes-to-your-project)
   * [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
