@@ -34,11 +34,7 @@ Case study: Vaccine effectiveness (continued)
   * This book is about 5 years old, but much of the code won't run 
   * [Jupyter/Colab notebooks](https://github.com/jakevdp/PythonDataScienceHandbook) -- github.com
 
-## A well-organized repo
-
-Case study: [Pandas on github](./pandas_on_github.md)
-
-# Review...
+## Review...
 
 * Goals -- county-level information
 * [COVID-19 Incidents and Death Rates](https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e2.htm) -- cdc.gov
@@ -58,4 +54,50 @@ Case study: [Pandas on github](./pandas_on_github.md)
 
 ## Processing CDC data
 
-Review the contents of [vaccines](../../topics/covid/vaccines)
+* Review student assignments
+* Review the contents of [vaccines](../../topics/covid/vaccines)
+
+## Vaccine effectiveness
+
+Continuing from Wednesday...
+
+* We've seen county-level data on vaccination rate.
+  * How can we investigate the relationship between COVID-related deaths and vaccination rate?
+  * What data do we need and what questions will we be able to investigate?
+  * Recall that we're interested in county-level information
+    * Rationale/working hypothesis: variation by county can be used to investigate effectiveness
+* New data source: [COVID Daily reports](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
+* Next steps: 
+  * Goal: Visualize vaccine effectiveness
+  * Create a single project repository for accessing, processing and visualizing the data.
+  * Documenting everything.
+  * Use a collaborative development model
+  * Individuals will develop code on their own and contribute via pull requests
+  * Everyone will comment on the requests
+  * Discuss requests, features, bugs on github
+  * Ask questions on piazza
+* TODO: Collect some ideas
+  * vaccination rate vs death rate
+  * [Scatterplot](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html)
+  * [Choropleth](https://observablehq.com/@d3/choropleth)
+
+## A well-organized repo
+
+Case study: [Pandas on github](./pandas_on_github.md)
+
+## Collaborative development
+
+* Project repo
+  * https://github.com/ds5010/vaccines
+  * everyone should have access
+  * TODO: Decide on a collaborative development model
+  * Discuss pull requests on github
+  * Discuss issues/feature requests on github
+  * Use Piazza to ask for help on something that's not in the repo.
+* [Pull requests](https://docs.github.com/en/pull-requests)
+  * [Committing changes to your project](https://docs.github.com/en/pull-requests/committing-changes-to-your-project)
+  * [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests)
+    * [About collaborative development models](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models)
+* [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+  * [Contributing to projects (with forks)](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+  * [Create a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
