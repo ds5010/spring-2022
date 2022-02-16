@@ -2,6 +2,7 @@
 
 Class notes
 
+* [04-Collaborate](04-Collaborate.md) -- 16-17 Feb
 * [04-Vaccines](04-Vaccines.md) -- 9-10 Feb
 * [03-Vaccines](03-Vaccines.md) -- 2-3 Feb
 * [02-Data](02-Data.md) -- 26-27 Jan
