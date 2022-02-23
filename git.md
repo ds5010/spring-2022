@@ -9,13 +9,43 @@ Updating a repository from the command-line.
 * [github cli](https://docs.github.com/en/github-cli) -- this ("gh") is not the same as "git"
   * if you're on a Mac, "git" should already be installed
 
-## Cloning a repo
+## Branches
 
-`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+* Branches allow you to develop outside of "main" (the main branch).
+* Branches are good for experimenting and/or collaborating.
+* Note: in the old days (last year), "main" was called "master"; you'll see docs refer to "master" instead of "main".
 
-References: 
+ | command | action |
+ | ---     | ---    |
+ | `git branch` | List and highlight the current branch (and any others you're working on) |
+ | `git branch -a` | List **all** the branches (even those you're not working on) |
+ | `git branch newb` | Create a new branch called "newb" (from whatever branch you're in) |
+ | `git checkout demo` | Switch to the branch called "demo" (you'll get a "filespec" error if "demo" doesn't exist) |
+ | `git branch -d newb` | Delete the "newb" branch (after merging any commits) |
+ | `git branch -D newb` | Delete the "newb" branch (discarding any unmerged commits) |
 
-* [Clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+* [Basic branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) -- git-scm.com
+
+## Changes
+
+ | command | action |
+ | ---     | ---    |
+ | `git diff` | Show changes in commits between current branch and origin |
+ | `git diff --name-status main` | List files that changed between current branch and main |
+ | `git diff --name-status firstbranch..newb` | Compare "firstbranch" with newb |
+ | `git diff main...newb` | Report differences between the "newb" branch and main (changes that have been committed) |
+ | `git diff newb main -- README.md` | Report differences for README.md only
+ | `git log` | List commit history (these include the hashes that uniquely identify each commit)
+ | `git merge-base main newb` | Get point where the "newb" branch was created from the main (or best common ancestor)
+
+* ["Revert to a previous commit"](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+  * This is an old but very popular and informative stackoverflow post
+  * github may have changed since then, but not so much for git
+  * 11K upvotes for the answer
+* ["Undo the most recent local commit"](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
+  * Also old (12 years)
+  * 26K up votes
+  * Discussion of HEAD
 
 ## Commits
 
@@ -48,14 +78,6 @@ References:
 
 ## Branches
 
-Branches allow you to develop outside the main branch.  This is good for experimenting and/or collaborating.
-
-* `$ git branch`
-  * list branches, including current branch
-  * default branch is usually "main"
-  * if you haven't created any branches, that'll be the only one
-* `$ git branch demo`
-  * create the "demo" branch
 * `$ git checkout demo`
   * switch to the demo branch
 * You need to specify the upstream for the branch before you can "push" or "pull"
@@ -94,3 +116,11 @@ $ git push origin main
 ## Pull requests
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+
+## Clone a repo
+
+`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+
+References: 
+
+* [Clone a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
