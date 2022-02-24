@@ -21,10 +21,27 @@
   * Pull request -- communicate with collaborators about proposed modifications to main
 * Discuss all the submissions
   * [my notes](../grades/README.md)
+
+## Stopped here
+
+* [issues.md](./issues.md)
   * decide what goes into issues
   * decide how to organize the repository
+* [my_vaccines repo](https://github.com/pbogden/my_vaccines/tree/my_dev/example)
+  * compare "my_dev" to "example" in the main branch
+  * includes most of the things that could go into the main branch of the student repo
 
-## My workflow
+## Git
 
-* [vaccines.md](./vaccines.md)
-* [git.md](./git.md)
+* [git-workflow.md](./git-workflow.md) -- simple example
+* [git.md](./git.md) -- cheat sheet
+
+## Matplotlib & Seaborn
+
+* [Python Data Viz](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
+  * Why so many libraries?
+  * Figure credit is Jake VanderPlas
+* [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/Index.ipynb) by Jake VanderPlas -- github
+* [04.00 Visualization with Matplotlib](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/04.00-Introduction-To-Matplotlib.ipynb)
+* [04.06 Customizing Plot Legends](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/04.06-Customizing-Legends.ipynb)
+* [04.14 Visualization with Seaborn](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.14-Visualization-With-Seaborn.ipynb)

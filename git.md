@@ -1,13 +1,24 @@
 
 # git
 
-Updating a repository from the command-line.
+Version control for a software repository -- from the command-line.
 
 ## References
 
 * [github starter course](https://github.com/education/github-starter-course)
 * [github cli](https://docs.github.com/en/github-cli) -- this ("gh") is not the same as "git"
   * if you're on a Mac, "git" should already be installed
+
+## Tags
+
+Create tags on the command line or with the GUI -- you can diff tags
+
+ | command | action |
+ | ---     | ---    |
+ | `git tag <tagname>` | Create a local tag on the current branch |
+ | `git tag <tagname> -a` | Create a local annotated tag on the current branch |
+ | `git push origin --tags` | Tags don't get pushed by default |
+ | `git diff <tagname> | Line-by-line comparison: tag and current branch |
 
 ## Branches
 
@@ -24,19 +35,18 @@ Updating a repository from the command-line.
  | `git branch -d newb` | Delete the "newb" branch (after merging any commits) |
  | `git branch -D newb` | Delete the "newb" branch (discarding any unmerged commits) |
 
-* [Basic branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) -- git-scm.com
+* Ref: [Basic branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) -- git-scm.com
 
 ## Changes
 
  | command | action |
  | ---     | ---    |
- | `git diff` | Show changes in commits between current branch and origin |
- | `git diff --name-status main` | List files that changed between current branch and main |
- | `git diff --name-status firstbranch..newb` | Compare "firstbranch" with newb |
- | `git diff main...newb` | Report differences between the "newb" branch and main (changes that have been committed) |
- | `git diff newb main -- README.md` | Report differences for README.md only
- | `git log` | List commit history (these include the hashes that uniquely identify each commit)
- | `git merge-base main newb` | Get point where the "newb" branch was created from the main (or best common ancestor)
+ | `git diff` | Report line-by-line changes since last commit |
+ | `git diff --name-status main` | Report differences (filenames only) between current branch and "main" |
+ | `git diff main...newb` | Report differences between the "main" and "newb" branches |
+ | `git diff newb main -- README.md` | Report differences for one file only: README.md |
+ | `git log` | List commit history (these include the hashes that uniquely identify each commit) |
+ | `git merge-base main newb` | Get point where the "newb" branch was created from the main (or best common ancestor) |
 
 * ["Revert to a previous commit"](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
   * This is an old but very popular and informative stackoverflow post
@@ -81,7 +91,6 @@ References:
 * `$ git checkout demo`
   * switch to the demo branch
 * You need to specify the upstream for the branch before you can "push" or "pull"
-* We're not going to be using the workflow for branches, at least not now.
 * To merge a branch
   ```
   $ git commit . -m "I made a such-and-such a change"
@@ -103,14 +112,21 @@ References:
 ## Update repository
 
 You update the repository by "pushing to origin". This is okay if you're the only one working on the project.
+These examples assume you're in the "main" branch.  Otherwise, replace "main" with the branch name.
 
 ```
-$ git push origin main
+git push origin main
 ```
 If you've made a change, then you need first to commit
 ```
-$ git commit . -m "I've made a such-and-such a change"  
-$ git push origin main
+git commit . -m "I've made a such-and-such a change"  
+git push origin main
+```
+If you've added a file (and maybe done other things), first stage, then commit
+```
+git add .
+git commit -m "I've made a such-and-such a change"  
+git push origin main
 ```
 
 ## Pull requests
