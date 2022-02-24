@@ -45,3 +45,7 @@
 * [04.00 Visualization with Matplotlib](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/04.00-Introduction-To-Matplotlib.ipynb)
 * [04.06 Customizing Plot Legends](https://github.com/jakevdp/PythonDataScienceHandbook/blob/8a34a4f653bdbdc01415a94dc20d4e9b97438965/notebooks/04.06-Customizing-Legends.ipynb)
 * [04.14 Visualization with Seaborn](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.14-Visualization-With-Seaborn.ipynb)
+
+## Scatterplots with legends
+
+* [legends.md](./legends.md)
