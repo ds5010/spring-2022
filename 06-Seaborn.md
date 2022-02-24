@@ -25,8 +25,7 @@
 ## Stopped here
 
 * [issues.md](./issues.md)
-  * decide what goes into issues
-  * decide how to organize the repository
+  * there's a TODO list in there
 * [my_vaccines repo](https://github.com/pbogden/my_vaccines/tree/my_dev/example)
   * compare "my_dev" to "example" in the main branch
   * includes most of the things that could go into the main branch of the student repo
