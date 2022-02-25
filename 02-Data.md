@@ -21,8 +21,8 @@
     * Look here: https://github.com/mwaskom/seaborn-data/blob/master/iris.csv
     * Use the "raw" link
     * `!curl -O "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
-* **NEW** since last week: [colab.md](./colab.md)
-  * Describes collaborative development with Colab
+* **NEW** [colab.md](./colab.md)
+  * Collaborative development with Colab
 
 ## In-class exercise: visualize iris
 
@@ -86,7 +86,7 @@ Write a function that reads a generic CSV file from your local filesystem.
 * When you're done prototyping, make sure your code is modular and well documented.
 * [solution](src/02-Data.md#exercise-2-detailed-rubric)
 
-## Matplotlib
+## Matplotlib overview
 
 * [Python Data Viz](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries) in 2018
   * Part II: [Emerging trends](https://www.anaconda.com/blog/python-data-visualization-2018-moving-toward-convergence)
@@ -97,16 +97,32 @@ Write a function that reads a generic CSV file from your local filesystem.
     * "Maarten Breddels, representing ipyvolume, bqplot, and ipywidgets, argued that ipywidgets (aka Jupyter widgets) is already emerging as a de facto standard, supported by a wide range of libraries (ipyvolume, ipyleaflet, pythreejs, bqplot, and now Plotly) that can now be mixed and matched as needed to provide interactive apps and plots in a Jupyter notebook."
     * Conclusions and Outlook: "Overall, it was clear that each of the main libraries represents a vibrant community of users and developers using different techniques to achieve different goals."
 
+## Matplotlib scatter
+
+* [pyplot.scatter API reference](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
+* [scatter plot demo](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html)
+
 ## Exercise #3: Visualize penguins
 
+Use the code from Exercises #1 and #2 to plot "bill_length_mm"
+vs "flipper_length_mm" for 
+[penguins.csv](https://github.com/allisonhorst/palmerpenguins/blob/master/inst/extdata/penguins.csv).
+Use color to distinguish "species". 
+If everything is nice and modular, it should be easy.
+
+* [penguins dataset](https://allisonhorst.github.io/palmerpenguins/) -- this is a NICE data repository!
+  * It's a [github pages](https://pages.github.com/) site -- every repository has one (optionally)
 * [solution](src/02-Data.md#exercise-3-solution)
 
-## Exercise #4: Create a well-documented repo
+## Exercise #4: Use pandas
 
-* Use Pandas
+* Use pandas to read and plot the data in exercise #3.
+* [pandas.read_csv() API reference](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
 * [solution](src/02-Data.md#exercise-4-solution)
 
-## Exercise #5: Create a well-documented repo
+## Exercise #5: Create a well-documented repo with the result
+
+* [git.md](./git.md) -- summary of command-line git
 
 By the way, you can include an image in markdown.
 
@@ -121,9 +137,9 @@ By the way, you can include an image in markdown.
   plt.savefig("iris.png")
   files.download("iris.png")
   ```
-  * Or you can do by hand, because "iris.png" has been saved on the colab filesystem.
+  * Or you can do by hand, because "iris.png" has been saved on the local filesystem
   * Note: we're using the fact that seaborn is built on matplotlib
-    * It's matplotlib.pyplot that has the "savefig()" function because of it
+    * matplotlib.pyplot has the "savefig()" function -- which saves the "current figure" as a PNG
   * See: [this article](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
     * It describes data viz with Python and answers the question: "Why so many data-viz libraries in Python?"
 * If you google "add image to github markdown", then these are the top two links...
