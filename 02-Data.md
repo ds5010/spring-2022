@@ -110,7 +110,6 @@ If everything is nice and modular, it should be easy.
 
 * [penguins dataset](https://allisonhorst.github.io/palmerpenguins/) -- this is a NICE data repository!
   * It's a [github pages](https://pages.github.com/) site -- every repository has one (optionally)
-<<<<<<< HEAD
 * [solution](src/02-Data.md#exercise-3-solution)
 
 ## Exercise #4: Use pandas
@@ -121,16 +120,6 @@ If everything is nice and modular, it should be easy.
 
 ## Exercise #5: Create a well-documented repo with the result
 
-=======
-
-## Exercise #4: Use pandas
-
-* Use pandas to read and plot the data in exercise #3.
-* [pandas.read_csv() API reference](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
-
-## Exercise #5: Create a well-documented repo with the result
-
->>>>>>> 4d733e79336e91b3b4492b869e5b5b21898afad8
 * [git.md](./git.md) -- summary of command-line git
 
 By the way, you can include an image in markdown.
