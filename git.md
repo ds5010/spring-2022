@@ -8,7 +8,10 @@ Version control for a software repository -- from the command-line.
 * [github starter course](https://github.com/education/github-starter-course)
 * [github cli](https://docs.github.com/en/github-cli) -- this ("gh") is not the same as "git"
   * if you're on a Mac, "git" should already be installed
+<<<<<<< HEAD
 * [About large files on github](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
+=======
+>>>>>>> 4d733e79336e91b3b4492b869e5b5b21898afad8
 
 ## Tags
 
@@ -19,7 +22,11 @@ Create tags on the command line or with the GUI -- you can diff tags
  | `git tag <tagname>` | Create a local tag on the current branch |
  | `git tag <tagname> -a` | Create a local annotated tag on the current branch |
  | `git push origin --tags` | Tags don't get pushed by default |
+<<<<<<< HEAD
  | `git diff <tagname>` | Line-by-line comparison: tag and current branch |
+=======
+ | `git diff <tagname> | Line-by-line comparison: tag and current branch |
+>>>>>>> 4d733e79336e91b3b4492b869e5b5b21898afad8
 
 ## Branches
 
@@ -45,8 +52,12 @@ Create tags on the command line or with the GUI -- you can diff tags
  | `git diff` | Report line-by-line changes since last commit |
  | `git diff --name-status main` | Report differences (filenames only) between current branch and "main" |
  | `git diff main...newb` | Report differences between the "main" and "newb" branches |
+<<<<<<< HEAD
  | `git diff main -- README.md` | Report differences (current branch & "main") for one file only: README.md |
  | `git diff newb main -- README.md` | Report differences ("newb" and "main") for one file only: README.md |
+=======
+ | `git diff newb main -- README.md` | Report differences for one file only: README.md |
+>>>>>>> 4d733e79336e91b3b4492b869e5b5b21898afad8
  | `git log` | List commit history (these include the hashes that uniquely identify each commit) |
  | `git merge-base main newb` | Get point where the "newb" branch was created from the main (or best common ancestor) |
 
