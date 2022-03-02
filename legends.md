@@ -1,6 +1,10 @@
 
 # Legends
 
+* [my_vaccines.ipynb](./notebooks/my_vaccines.ipynb)
+
+## Context
+
 * [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb) by Jake VanderPlas -- github
   * [4.00 -- Introduction to matplotlib](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html)
     * [Two interfaces for the price of one](https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html#Two-Interfaces-for-the-Price-of-One)
@@ -67,6 +71,7 @@ ax.legend(handles, labels, loc="upper right", title="Population Sizes (x10k)", l
 
 * [04-06 Customizing Legends](https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html)
   * Check cell #9
+* Exercise -- try it
 
 # Seaborn scatterplots
 
@@ -77,6 +82,7 @@ ax.legend(handles, labels, loc="upper right", title="Population Sizes (x10k)", l
 * Following example demonstrates scatterplot with vaccines data
   * Following code snippet works in Colab
   * It could use some help (scales, limits, colors, etc.), but the demo works
+* Exercise -- try it here too
 ```
 import seaborn as sns
 import pandas as pd
