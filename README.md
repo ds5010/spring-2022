@@ -2,7 +2,8 @@
 
 Class notes
 
-* [07-Seaborn](07-Seaborn.md) -- 2-3 Feb
+* [08-Earthquakes](08-Earthquakes.md) -- 9-10 Mar
+* [07-Seaborn](07-Seaborn.md) -- 2-3 Mar
 * [06-Seaborn](06-Seaborn.md) -- 23-24 Feb
 * [05-Collaborate](05-Collaborate.md) -- 16-17 Feb
 * [04-Vaccines](04-Vaccines.md) -- 9-10 Feb
