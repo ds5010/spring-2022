@@ -5,6 +5,11 @@
 
 * unittest and classes
 
+## Project
+
+* Update on discussions and data with Andrew Butcher
+* We have an idea and some data -- now figure out what to do with it
+
 ## Collaborative assignment (Due 22 Mar)
 
 * Create the gh-pages version
@@ -15,11 +20,6 @@
   * Improve modularity...?
 * Improve visualization of time
   * For example: [Bar Chart Race, Explained](https://observablehq.com/@d3/bar-chart-race-explained)
-
-## Project
-
-* Update on discussions and data with Andrew Butcher
-* We have an idea and some data -- now figure out what to do with it
 
 ## Earthquakes
 
