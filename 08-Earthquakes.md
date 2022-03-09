@@ -7,8 +7,9 @@
 
 ## Project
 
-* Update on discussions and data with Andrew Butcher
-* We have an idea and some data -- now figure out what to do with it
+* Update on discussions with Andrew Butcher
+* We have a story and some data
+* Now we can figure out what to do with them
 
 ## Collaborative assignment (Due 22 Mar)
 
