@@ -26,6 +26,7 @@
 * [earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 * [json](https://docs.python.org/3/library/json.html)
 * [requests](https://docs.python-requests.org/en/latest/)
+* [matplotlib basemap](https://matplotlib.org/basemap/index.html)
 * notebook: [earthquakes.ipynb](./notebooks/earthquakes.ipynb)
 
 ## GeoPandas
