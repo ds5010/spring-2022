@@ -1,9 +1,9 @@
 
 # 08-Earthquakes
 
-## Class
+## Quiz
 
-* Quiz -- unittest and OO design
+* unittest and classes
 
 ## Collaborative assignment (Due 22 Mar)
 
