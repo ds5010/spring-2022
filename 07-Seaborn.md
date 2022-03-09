@@ -5,7 +5,9 @@
 * Customizing Seaborn (and Matplotlib)
 * Intro to Numpy & Pandas
 
-## Quiz
+## Reading (prep for 9 Mar class)
+
+* [assignment07.md](./assignment07.md)
 
 ## Vaccine-project review
 
