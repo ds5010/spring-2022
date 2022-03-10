@@ -22,6 +22,21 @@
 * Improve visualization of time
   * For example: [Bar Chart Race, Explained](https://observablehq.com/@d3/bar-chart-race-explained)
 
+**STOPPED HERE**
+
+## Scope
+
+* First question in the quiz refers to "local", "global" and "nonlocal" keywords
+* The example is here: https://docs.python.org/3/tutorial/classes.html#private-variables
+  * A question came up in class regarding use of the "nonlocal" keyword
+  * In response to the question -- try commenting the line `spam = "test spam"`
+  * After commenting that line, the line `nonlocal spam` throws "SyntaxError: no binding for nonlocal 'spam' found"
+* https://peps.python.org/pep-3104
+  * the proposal addresses a shortcoming in ability to access names in outer scope
+  * describes the historical issue that gave rise to the "nonlocal" keyword
+  * includes comparison with other languages (JavaScript, Perl, Ruby, C, C#, etc.)
+  * https://www.destroyallsoftware.com/talks/wat -- Wat talk
+
 ## Earthquakes
 
 * [earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
@@ -29,20 +44,9 @@
 * [requests](https://docs.python-requests.org/en/latest/)
 * **STOPPED HERE**
 * [matplotlib basemap](https://matplotlib.org/basemap/index.html)
+  * [projecting longitude & latitude](https://matplotlib.org/basemap/users/mapcoords.html)
+  * `x,y = m(lon,lat) # Note that lon,lat can be scalars, lists or numpy arrays`
 * notebook: [earthquakes.ipynb](./notebooks/earthquakes.ipynb)
-
-## Scope
-
-* First question in the quiz refers to "local", "global" and "nonlocal" keywords
-  * The example is here: https://docs.python.org/3/tutorial/classes.html#private-variables
-    * A question came up in class regarding use of the "nonlocal" keyword
-    * In response to the question -- try commenting the line `spam = "test spam"`
-    * After commenting that line, the line `nonlocal spam` throws "SyntaxError: no binding for nonlocal 'spam' found"
-  * https://peps.python.org/pep-3104
-    * the proposal addresses a shortcoming in ability to access names in outer scope
-    * describes the historical issue that gave rise to the "nonlocal" keyword
-    * includes comparison with other languages (JavaScript, Perl, Ruby, C, C#, etc.)
-    * https://www.destroyallsoftware.com/talks/wat -- Wat talk
 
 ## GeoPandas
 

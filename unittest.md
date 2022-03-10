@@ -1,17 +1,28 @@
 
 # Unittest
 
-To create a test module
+## References
+
+* [unittest](https://docs.python.org/3/library/unittest.html) -- python.org
+  * this is extensive documentation of a built-in python library
+  * it includes links to many other related tools and techniques
+  * among those tools is the third party [pytest](https://docs.pytest.org/) framework
+* [basic example](https://docs.python.org/3/library/unittest.html#basic-example)
+  * this demonstrates a small subset of the tools that suffice for most users -- including us!
+
+## To create a test module...
 
 * subclass unittest.TestCase
 * add methods whose names begin with "test"
   * the naming convention informs the test runner which tests to run
-* tests involve a call to
+* tests involve a call to one or more of:
   * assertEqual()
   * assertTrue() or assertFalse()
   * assertRaises() -- to verify that a specific exception gets raised
 
 ## Running tests
+
+Running from the command line should work for us
 
 * `python -m file.py` -- runs file.py module as a script
 * `python -m tests/*.py` -- runs each module in ./tests as a script
