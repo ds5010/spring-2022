@@ -42,7 +42,7 @@
 * [earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 * [json](https://docs.python.org/3/library/json.html)
 * [requests](https://docs.python-requests.org/en/latest/)
-* **STOPPED HERE**
+* We really **STOPPED HERE**
 * [matplotlib basemap](https://matplotlib.org/basemap/index.html)
   * [projecting longitude & latitude](https://matplotlib.org/basemap/users/mapcoords.html)
   * `x,y = m(lon,lat) # Note that lon,lat can be scalars, lists or numpy arrays`
@@ -51,6 +51,13 @@
 ## GeoPandas
 
 * notebook: [geopandas.ipynb](./notebooks/geopandas.ipynb)
+* [Introduction](https://geopandas.org/en/stable/getting_started/introduction.html)
+  * Getting started docs have some simple examples
+* [Interactive mapping](https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html) in User Guide -- geopandas.org
+  * [Needs latest folium](https://github.com/geopandas/geopandas/issues/2187)
+    * Throws an error in Colab
+    * Google helps you find the solution in the github issues!
+    * Google the error message and add "geopandas"
 
 ## Unit testing
 
