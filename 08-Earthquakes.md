@@ -53,6 +53,7 @@
 * notebook: [geopandas.ipynb](./notebooks/geopandas.ipynb)
 * [Introduction](https://geopandas.org/en/stable/getting_started/introduction.html)
   * Getting started docs have some simple examples
+* [Reading data](https://geopandas.org/en/stable/docs/user_guide/io.html)
 * [Interactive mapping](https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html) in User Guide -- geopandas.org
   * [Needs latest folium](https://github.com/geopandas/geopandas/issues/2187)
     * Throws an error in Colab
