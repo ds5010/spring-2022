@@ -35,7 +35,6 @@
   * the proposal addresses a shortcoming in ability to access names in outer scope
   * describes the historical issue that gave rise to the "nonlocal" keyword
   * includes comparison with other languages (JavaScript, Perl, Ruby, C, C#, etc.)
-  * https://www.destroyallsoftware.com/talks/wat -- Wat talk
 
 ## Earthquakes
 
@@ -50,10 +49,11 @@
 
 ## GeoPandas
 
+* [GeoPandas](https://github.com/geopandas/geopandas) -- github.com
+  * Has install recommendations
 * notebook: [geopandas.ipynb](./notebooks/geopandas.ipynb)
 * [Introduction](https://geopandas.org/en/stable/getting_started/introduction.html)
   * Getting started docs have some simple examples
-* [Reading data](https://geopandas.org/en/stable/docs/user_guide/io.html)
 * [Interactive mapping](https://geopandas.org/en/stable/docs/user_guide/interactive_mapping.html) in User Guide -- geopandas.org
   * [Needs latest folium](https://github.com/geopandas/geopandas/issues/2187)
     * Throws an error in Colab
