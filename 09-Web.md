@@ -22,6 +22,19 @@
     * Consider an independent set of "install instructions"
     * Definitely use ".gitignore" for things like ".DS_Store"
 
+## Vaccines v2 TODO
+
+* Create a .gitignore file to deal with data source and misc files (e.g., .DS_Store)
+* Clean up "make test" Makefile
+* Integrate Bridget's visualization
+  * It's working in Bridget's branch -- doesn't require changes to other data sources
+  * Check to see if the code could be more concise
+* gh-pages site -- add the new visuals
+* Update the gh-pages story
+* Lessons learned (for next time)
+  * More effort on the roadmap
+  * Don't be afraid to open issues 
+
 ## Web apps
 
 * In R: 
