@@ -26,7 +26,7 @@
 
 * Create a .gitignore file to deal with data source and misc files (e.g., .DS_Store)
 * Clean up "make test" Makefile
-* Integrate Bridget's visualization
+* Integrate the new visualization
   * It's working in Bridget's branch -- doesn't require changes to other data sources
   * Check to see if the code could be more concise
 * gh-pages site -- add the new visuals
