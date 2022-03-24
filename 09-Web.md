@@ -93,3 +93,10 @@ Start digging into the data
 * EDA of that data
 * Think about a class project and website
 * You can't use geopandas on a website without a back end (Python is not a web technology)
+  * But you certainly can use it for EDA
+* Mission...
+  * Represent current investments 
+  * Demonstrate community readiness
+  * Highlight unconnected/unserved areas
+  * Demonstrate connectivity in context of other socio-economic demographics
+  * Representation of wireless offerings in context of unconnected/unserved.  
