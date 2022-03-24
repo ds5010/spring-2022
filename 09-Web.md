@@ -75,7 +75,7 @@
   * If you don't require a "back end" and you do everything with web technologies (HTML, CSS, JavaScript), use gh-pages
   * For example: https://pbogden.github.io
 * Python data viz
-  * [Why so many libraries?](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_select_from_model_diabetes.html)
+  * [Why so many libraries?](https://www.anaconda.com/blog/python-data-visualization-2018-why-so-many-libraries)
     * There are two core visualization technologies: desktop & browser
     * Matplotlib (strives to be platform independent) & Web Standards (JavaScript -> D3, Leaflet, etc.)
   * [Dash & D3](https://dash.plotly.com/d3-react-components)
