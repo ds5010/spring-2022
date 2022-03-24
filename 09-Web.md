@@ -24,14 +24,15 @@
 
 ## Vaccines v2 TODO
 
-* Create a .gitignore file to deal with data source and misc files (e.g., .DS_Store)
-* Clean up "make test" Makefile
-* Integrate the new visualization
-  * It's working in Bridget's branch -- doesn't require changes to other data sources
-  * Check to see if the code could be more concise
-* gh-pages site -- add the new visuals
-* Update the gh-pages story
-* Lessons learned (for next time)
+* Create a .gitignore file to deal with data source and misc files (e.g., .DS_Store) -- k
+  * Distinguish data download/provenance from analysis/cleaning
+* Clean up "make test" Makefile and unused code -- y & j
+* Integrate the new visualization software -- b
+  * It's working in the dev branch -- doesn't require changes to other data sources
+* Check to see if the code could be more concise - p
+* gh-pages site -- add the new visuals - m & s
+* Update the gh-pages story - m & s
+* Lessons learned (TODOs for next time)
   * More effort on the roadmap
   * Don't be afraid to open issues 
 
@@ -64,7 +65,7 @@
 * Markdown:
   * gh-pages converts markdown to HTML, including styling with [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
   * [vaccines](ds5010.github.io/vaccines)
-* HTML, CSS, JavaScript
+* Web technologies -- HTML, CSS, JavaScript
   * Run you own [http server](https://docs.python.org/3/library/http.server.html) for local development
   ```
   python -m http.server
@@ -73,6 +74,15 @@
   * heroku.com has been doing this for a while
   * If you don't require a "back end" and you do everything with web technologies (HTML, CSS, JavaScript), use gh-pages
   * For example: https://pbogden.github.io
+* Python data viz
+  * [Why so many libraries?](https://scikit-learn.org/stable/auto_examples/feature_selection/plot_select_from_model_diabetes.html
+    * There are two core visualization technologies: desktop & browser
+    * Matplotlib (strives to be platform independent) & Web Standards (JavaScript -> D3, Leaflet, etc.)
+  * [Dash & D3](https://dash.plotly.com/d3-react-components)
+    * Note the technologies involved in marrying Python & D3 (React, etc.)
+  * [Jupyter & D3](https://colab.research.google.com/drive/1HhbvoeR9IsxAIZQXYwuEoJjppWL2IZ3E)
+    * [Observable-Jupyter](https://github.com/thomasballinger/observable-jupyter)
+    * [Observable-Jupyter demo](
 
 ## Broadband
 
