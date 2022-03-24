@@ -82,7 +82,8 @@
     * Note the technologies involved in marrying Python & D3 (React, etc.)
   * [Jupyter & D3](https://colab.research.google.com/drive/1HhbvoeR9IsxAIZQXYwuEoJjppWL2IZ3E)
     * [Observable-Jupyter](https://github.com/thomasballinger/observable-jupyter)
-    * [Observable-Jupyter demo](
+    * [Observable-Jupyter demo](notebooks/observable-jupyter.ipynb)
+    * [Another demo](https://colab.research.google.com/drive/1bAl0cTXMmRLsvZj68M3fyvSmV0y87QLI#scrollTo=QHZ6jPqIpCbX)
 
 ## Broadband
 
