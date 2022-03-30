@@ -2,6 +2,7 @@
 
 Class notes
 
+* [10-Geo](10-Geo.md) -- 30-31 Mar
 * [09-Web](09-Web.md) -- 23-24 Mar
 * [08-Earthquakes](08-Earthquakes.md) -- 9-10 Mar
 * [07-Seaborn](07-Seaborn.md) -- 2-3 Mar
