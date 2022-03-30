@@ -76,7 +76,7 @@ Introducing [Conda "environments"](https://docs.conda.io/projects/conda/en/lates
   * However, getting Jupyter notebooks to recognize your environment can be a challenge! (I haven't gotten it to work.)
 * Deactivate the environment: `conda deactivate geo`
 
-# GeoPandas demo
+## GeoPandas demo
 
 In Python, you can import
 
