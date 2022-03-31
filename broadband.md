@@ -8,7 +8,13 @@ Broad goals...
 * Demonstrate connectivity in context of other socio-economic demographics
 * Represent wireless offerings in context of unconnected/unserved
 
-## Files
+## Broadband mapping
+
+* [Broadband mapping](https://www.maine.gov/connectme/communities-resources/Broadbandmapping) -- maine.gov
+* [Maine Connectivity Authority](https://www.maineconnectivity.org/) -- maineconnectivity.org
+  * Resources -- a number of sites that help put things in context
+
+## Data files
 
 * Tiers 0-5 are from the Sewell 2020 Service Availability dataset -- they were exported separately. 
   * Tier 0 (No Address Range)
@@ -17,6 +23,7 @@ Broad goals...
   * Tier 3 (25/3-50/10)
   * Tier 4 (50/100 - 100/100)
   * Tier 5 (> 100M)
+  * [maps.sewall.com](https://maps.sewall.com/connectme/public/)
 * Served, Underserved, and Unserved subscriber locations and the Eligible Areas data sets
   * These are from the grant round that ConnectMaine is reviewing proposals for. 
   * The classifications are based on ConnectMaine definitions. 

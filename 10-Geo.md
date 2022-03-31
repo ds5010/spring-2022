@@ -129,7 +129,6 @@ The 3 files in `./src` have the following demos:
 * The files in `./docs` have bootstrap demos
 * Templates for gh-pages -- the vaccines and broadband projects
 * One of them show how to embed a Leaflet app created with Folium
-* [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) has links to tutorials -- mozilla.org
 
 ## Broadband project
 
