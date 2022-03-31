@@ -8,9 +8,10 @@
 
 ## Local dev
 
-* In a terminal window, "cd" to the directory containing the index.html file.
+* In a terminal window, "cd" to the directory containing these files.
+* Start the development server
 ```
 python -m http.server
 ```
-* Browse to http://localhost:8000 or, equivalently, http://127.0.0.1:8000
-* Use ctl-c to stop the server
+* Browse to http://localhost:8000 to view index.html
+* Use control-c to stop the server
