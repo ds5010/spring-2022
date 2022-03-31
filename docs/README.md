@@ -6,10 +6,9 @@
 * [cheatsheet](https://getbootstrap.com/docs/5.1/examples/cheatsheet/)
 * [github logos](https://github.com/logos)
 
-## Setup
+## Local dev
 
 * In a terminal window, "cd" to the directory containing the index.html file.
-* Go to [examples](https://getbootstrap.com/docs/5.1/examples/) and "Download source code"
 ```
 python -m http.server
 ```
