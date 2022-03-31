@@ -10,7 +10,6 @@
 
 * In a terminal window, "cd" to the directory containing the index.html file.
 * Go to [examples](https://getbootstrap.com/docs/5.1/examples/) and "Download source code"
-* Move the zip file the current directory and unzip it.
 ```
 python -m http.server
 ```
