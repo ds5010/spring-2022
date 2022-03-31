@@ -123,3 +123,13 @@ The 3 files in `./src` have the following demos:
   * `python -B src/app.py`
 * Folium Stamen demo
   * `python -B src/demo.py`
+
+## docs
+
+* The files in `./docs` have bootstrap demos
+* Templates for gh-pages -- the vaccines and broadband projects
+* One of them show how to embed a Leaflet app created with Folium
+
+## Broadband project
+
+[braodband.md](broadband.md)
