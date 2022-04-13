@@ -11,6 +11,10 @@ Sara Mills-Knapp mentioned (on LinkedIn) that Maine Clean Communities is looking
 
 https://www.gpcog.org/jobs.aspx?uniqueid=98&communityjobs=false&jobid=27
 
+## Broadband update
+
+* [broadband](https://github.com/ds5010/broadband) -- ds5010 github site
+
 ## Web maps
 
 * [Observable maps](https://observablehq.com/collection/@observablehq/maps)
