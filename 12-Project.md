@@ -26,3 +26,8 @@ https://www.gpcog.org/jobs.aspx?uniqueid=98&communityjobs=false&jobid=27
 
 * [My Zoomable Raster & Vector II](https://observablehq.com/d/88a8d31c7bc2f92d)
 * [brushable-map](notebooks/brushable-map.ipynb)
+* [geojson](https://github.com/ds5010/broadband/blob/main/county/Androscoggin.geojson) on github
+
+## linked-list project
+
+* [linked-list.md](linked-list.md)
