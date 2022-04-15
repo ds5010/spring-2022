@@ -28,9 +28,9 @@ https://www.gpcog.org/jobs.aspx?uniqueid=98&communityjobs=false&jobid=27
 * [brushable-map](notebooks/brushable-map.ipynb)
 * [geojson](https://github.com/ds5010/broadband/blob/main/county/Androscoggin.geojson) on github
   * the github map uses mapbox services
-  * mapbox started out as leaflet and became mapbox-gl-js
+  * mapbox started out extending the open source leaflet project and became mapbox-gl-js
   * when mapbox went closed source (at version 2.0), the project forked to become [maplibre](https://maplibre.org/)
-  * these maps use both vector and raster tile services
+  * these slippy map libraries use both vector and raster tile services
 
 ## linked-list project
 
