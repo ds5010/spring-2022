@@ -7,7 +7,9 @@
 
 ## Broadband update
 
-* [broadband](https://github.com/ds5010/broadband) -- ds5010 github site
+* [broadband gh-pages](https://github.com/ds5010/broadband) -- ds-5010 broadband gh-pages site
+* [broadband repo](https://github.com/ds5010/broadband) -- ds5010 github site
+* [todo list](todo.md)
 
 ## Web maps
 
